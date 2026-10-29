@@ -1,0 +1,21 @@
+{
+  "name": "farmnexa-marketplace",
+  "version": "1.0.0",
+  "description": "FarmNexa - Premium Nigerian Agricultural Produce & Global Export Marketplace",
+  "scripts": {
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build:server": "npm run build --prefix server",
+    "build:client": "npm run build --prefix client",
+    "build": "npm run build:server && npm run build:client",
+    "test:server": "npm run test --prefix server"
+  },
+  "keywords": [
+    "agricultural-marketplace",
+    "nigerian-produce",
+    "export",
+    "ecommerce"
+  ],
+  "author": "FarmNexa Engineering Team",
+  "license": "ISC"
+}
